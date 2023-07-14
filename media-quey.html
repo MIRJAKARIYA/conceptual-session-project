@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+        
+
+        
+
+        .container{
+            height: 200px;
+            background-color: red;
+        }
+
+
+
+
+/* media query */
+
+
+   /* while using max-width only */
+    /* @media screen and (max-width:1200px) {
+        .container{
+            background-color: navajowhite;
+        }
+    }
+    @media screen and (max-width:900px) {
+        .container{
+            background-color: green;
+        }
+    }
+    @media screen and (max-width:600px) {
+        .container{
+            background-color: orange;
+        }
+    }
+    @media screen and (max-width:400px) {
+        .container{
+            background-color: blue;
+        }
+    } */
+
+
+   /* while using min-width only */
+    /* @media screen and (min-width:400px) {
+        .container{
+            background-color: navajowhite;
+        }
+    }
+    @media screen and (min-width:600px) {
+        .container{
+            background-color: green;
+        }
+    }
+    @media screen and (min-width:900px) {
+        .container{
+            background-color: orange;
+        }
+    }
+    @media screen and (min-width:1200px) {
+        .container{
+            background-color: blue;
+        }
+    } */
+
+
+
+    /* range */
+
+
+        @media screen and (min-width:400px) and (max-width:600px) {
+            .container{
+                background-color: blue;
+            }
+        }
+        @media screen and (min-width:601px) and (max-width:900px) {
+            .container{
+                background-color: green;
+            }
+        }
+        @media screen and (min-width:901px) {
+            .container{
+                background-color: violet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+</body>
+</html>
